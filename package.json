@@ -1,0 +1,15 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "rimraf dist && npx tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon dist/script.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "ISC"
+}
